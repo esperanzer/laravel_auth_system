@@ -15,6 +15,7 @@ class RolePermissionSeeder extends Seeder
         $teacher = Role::firstOrCreate(['name' => 'teacher']);
         $student = Role::firstOrCreate(['name' => 'student']);
         $staff = Role::firstOrcreate(['name' => 'staff']);
+        //testing on git
 
         // Get existing permissions - (simply say create variables to listing all existing permisions)
         $createStudent = Permission::firstOrCreate(['name' => 'create student']);
